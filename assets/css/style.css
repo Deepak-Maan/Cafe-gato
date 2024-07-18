@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("./root.css");
+
+@font-face {
+    font-family: Norwester;
+    src: url("../fonts/norwester.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    ;
+}
+
+.ff_norwester {
+    font-family: Norwester;
+}
+
+.ff_inter {
+    font-family: "Inter", sans-serif;
+}
+
+/* =================================HEADER SECTION================================= */
+/* =================================ABOUT SECTION================================= */
+.about_card {
+    max-width: 1140px;
+    border: 4px solid var(--primary);
+    border-radius: 13px;
+    box-shadow: 0px 22px 0px 0px var(--primary);
+}
+
+.about_top_paw {
+    position: absolute;
+    right: 58px;
+    top: 55px;
+    z-index: -1;
+}
+
+.about_middle_paw {
+    position: absolute;
+    right: 81px;
+    top: 190px;
+    z-index: -1;
+}
+
+.about_bottom_paw {
+    position: absolute;
+    left: 37px;
+    bottom: 18px;
+    z-index: -1;
+}
+
+.paw_img {
+    width: 26px !important;
+    height: 27px;
+    padding: 0 !important;
+}
+
+.about_img {
+    max-height: 345px;
+    max-width: 413px;
+}
+
+/* =================================BENEFITS SECTION================================= */
+/* =================================JOURNEY SECTION================================= */
+/* =================================CONNECTED SECTION================================= */
+.form_input {
+    padding: 12px;
+    max-width: 471px;
+    border: 3px solid var(--primary);
+    border-radius: 72px;
+    height: unset;
+    font-size: var(--font-sm) !important;
+    font-family: inter !important;
+    font-weight: 400 !important;
+    color: var(--primary);
+}
+
+.form_input:focus {
+    outline: none !important;
+    ;
+}
+
+.form_input::placeholder {
+    font-family: Inter;
+    font-size: var(--font-sm);
+    font-weight: 400;
+    text-align: left;
+    color: var(--primary);
+}
+
+.submit_button {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    max-width: 471px;
+    border: none;
+    max-height: 90px;
+    border-radius: 72px;
+    box-shadow: 0px 4px 25.6px 0px var(--orange);
+    transition: all 300ms linear;
+}
+
+.submit_button:hover {
+    box-shadow: 0 4px 0 0 var(--primary);
+}
+
+.connected_layer {
+    position: absolute;
+    top: 30%;
+    right: -4%;
+    z-index: -1;
+    width: 400px;
+    height: 300px;
+}
+
+.connected_bottom_spacing {
+    padding-bottom: 233px;
+}
+
+.connected_img {
+    max-width: 500px;
+    max-height: 443px;
+}
+
+.connected_left_paw {
+    position: absolute;
+    bottom: 5%;
+    left: -5%;
+}
+
+.connected_right_paw {
+    position: absolute;
+    top: 2%;
+    right: -4%;
+}
+
+/* =================================FOOTER SECTION================================= */
+
+/* =================================MEDIA SCREENS================================= */
+@media (min-width:575.9px) {
+    .connected_layer {
+        position: absolute;
+        top: 10%;
+        right: -15%;
+        z-index: -1;
+    }
+
+    .form_input {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .submit_button {
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+}
+
+@media (min-width:767.9px) {
+    .connected_layer {
+        position: absolute;
+        top: 10%;
+        right: -4%;
+        height: 400px;
+    }
+
+    .form_input {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .submit_button {
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+}
+
+@media (min-width:991.9px) {
+    .connected_layer {
+        position: absolute;
+        top: 10%;
+        right: -25%;
+        width: 730px;
+        height: unset;
+    }
+
+    .form_input {
+        padding-top: 33px;
+        padding-bottom: 33px;
+        padding-left: 29px;
+        padding-right: 29px;
+        height: 90px;
+    }
+
+    .submit_button {
+        padding-bottom: 33px;
+        padding-top: 33px;
+        max-height: 90px;
+    }
+}
+
+@media (min-width:1280px) {
+    .container {
+        max-width: 1164px !important;
+    }
+}

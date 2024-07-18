@@ -1,0 +1,98 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --primary: #09384E;
+    --orange: #F87B54;
+
+    --font-sm: 18px;
+    --font-base: 22px;
+    --font-md: 31px;
+    --font-lg: 48px;
+    --font-xl: 74px;
+
+}
+
+/*=================================================  COLORS =========================================== */
+
+.text_orange {
+    color: var(--orange);
+}
+
+.text_primary {
+    color: var(--primary);
+}
+
+.bg_primary {
+    background-color: var(--primary);
+}
+
+.bg_orange {
+    background-color: var(--orange);
+}
+
+/*=========================================== FONT-SIZES ========================================== */
+
+.text_sm {
+    font-size: var(--font-sm);
+}
+
+.text_base {
+    font-size: var(--font-base);
+}
+
+.text_md {
+    font-size: var(--font-md);
+}
+
+.text_lg {
+    font-size: var(--font-lg);
+}
+
+
+.text_xl {
+    font-size: var(--font-xl);
+}
+
+/*===========================================  LINE HEIGHT ========================================== */
+
+.leading_120 {
+    line-height: 120%;
+}
+
+.leading_170 {
+    line-height: 170%;
+}
+
+/*=========================================== OPACITY CLASSES ========================================== */
+.opacity_80 {
+    opacity: 0.8;
+}
+
+/* =================================MEDIA SCREENS================================= */
+@media (min-width:575.9px) {
+    :root {
+        --font-sm: 20px !important;
+        --font-base: 22px;
+        --font-md: 31px;
+        --font-lg: 48px;
+        --font-xl: 74px;
+    }
+}
+
+@media (min-width:767.9px) {
+    :root {
+        --font-base: 22px;
+        --font-md: 31px;
+        --font-lg: 48px;
+        --font-xl: 74px;
+    }
+}
+
+@media (min-width:991.9px) {
+    :root {
+        --font-base: 22px;
+        --font-md: 31px;
+        --font-lg: 48px;
+        --font-xl: 74px;
+    }
+}
