@@ -138,6 +138,14 @@
 }
 
 /* =================================FOOTER SECTION================================= */
+.footer_logo {
+    max-width: 155px;
+    max-height: 152px;
+}
+
+.footer_links_gap {
+    gap: 38px;
+}
 
 /* =================================MEDIA SCREENS================================= */
 @media (min-width:575.9px) {
