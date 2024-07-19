@@ -5,7 +5,7 @@
     --orange: #F87B54;
     --purple: #A89BB7;
     --blue: #6FCACF;
-
+    --font-xs: 16px;
     --font-sm: 18px;
     --font-base: 22px;
     --font-md: 24px;
@@ -41,6 +41,10 @@
 }
 
 /*=========================================== FONT-SIZES ========================================== */
+
+.text_xs {
+    font-size: var(--font-xs);
+}
 
 .text_sm {
     font-size: var(--font-sm);
