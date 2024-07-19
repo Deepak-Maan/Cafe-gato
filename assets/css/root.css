@@ -8,9 +8,9 @@
 
     --font-sm: 18px;
     --font-base: 22px;
-    --font-md: 31px;
-    --font-lg: 48px;
-    --font-xl: 74px;
+    --font-md: 24px;
+    --font-lg: 36px;
+    --font-xl: 48px;
 
 }
 
@@ -83,18 +83,18 @@
     :root {
         --font-sm: 20px !important;
         --font-base: 22px;
-        --font-md: 31px;
-        --font-lg: 48px;
-        --font-xl: 74px;
+        --font-md: 26px;
+        --font-lg: 38px;
+        --font-xl: 56px;
     }
 }
 
 @media (min-width:767.9px) {
     :root {
         --font-base: 22px;
-        --font-md: 31px;
-        --font-lg: 48px;
-        --font-xl: 74px;
+        --font-md: 28px;
+        --font-lg: 42px;
+        --font-xl: 64px;
     }
 }
 
