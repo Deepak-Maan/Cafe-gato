@@ -3,6 +3,8 @@
     --white: #fff;
     --primary: #09384E;
     --orange: #F87B54;
+    --purple: #A89BB7;
+    --blue: #6FCACF;
 
     --font-sm: 18px;
     --font-base: 22px;
@@ -28,6 +30,14 @@
 
 .bg_orange {
     background-color: var(--orange);
+}
+
+.bg_purple {
+    background-color: var(--purple);
+}
+
+.bg_blue {
+    background-color: var(--blue);
 }
 
 /*=========================================== FONT-SIZES ========================================== */
