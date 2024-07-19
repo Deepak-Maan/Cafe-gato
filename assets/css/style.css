@@ -24,6 +24,75 @@
 }
 
 /* =================================HEADER SECTION================================= */
+.header_logo {
+    max-width: 90px;
+    max-height: 90px;
+    margin-top: 18px;
+}
+
+.header_woman {
+    max-width: 600px;
+    max-height: 750px;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+    transform: translateX(0%);
+    position: unset;
+}
+
+.header_cloud {
+    background-image: url("../images/webp/clouds_img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 249px;
+    height: 180px;
+    margin-top: 14px;
+}
+
+.cloud_text {
+    max-width: 208px;
+    text-shadow: 0px 4px 7.1px 0px var(--black);
+
+}
+
+.header_cat_image {
+    max-width: 108px;
+    max-height: 82px;
+    right: -26%;
+    bottom: -17%;
+}
+
+.header_right_layer {
+    max-width: 500px;
+    max-height: 380px;
+    right: -62px;
+    top: -28px;
+    pointer-events: none;
+}
+
+.header_bulb {
+    top: 0;
+    right: 5%;
+    height: 138px;
+    width: 45px;
+}
+
+.header_bottom_spacing {
+    padding-bottom: 100px;
+}
+
+.header_blue_lines {
+    top: 2%;
+    right: 30.5%;
+    width: 108px;
+}
+
+.header_bottom_layer {
+    width: 112px;
+    height: 94px;
+}
+
 /* =================================ABOUT SECTION================================= */
 .about_card {
     max-width: 1140px;
@@ -62,6 +131,24 @@
 .about_img {
     max-height: 345px;
     max-width: 413px;
+}
+
+/*==================================MISSION SECTION==================================*/
+.mission_right_layer {
+    position: absolute;
+    right: -32%;
+    top: -17%;
+    z-index: -1;
+}
+
+.mission_img {
+    max-width: 250px;
+    max-height: 300px;
+}
+
+.mission_cat_img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 /* =================================BENEFITS SECTION================================= */
@@ -105,6 +192,33 @@
 }
 
 /* =================================JOURNEY SECTION================================ */
+.jurney_shadow {
+    position: absolute;
+    max-width: 897px;
+    max-height: 619px;
+    top: 23%;
+    left: -4%;
+}
+
+.max-w-590 {
+    max-width: 590px;
+}
+
+.jurney_img {
+    max-width: 250px;
+    max-height: 300px;
+}
+
+.max_w_590 {
+    max-width: 590px;
+}
+
+.journey_pow_vector {
+    position: absolute;
+    bottom: 20%;
+    left: -5%;
+}
+
 /* =================================THANKS SECTION================================= */
 .thanks_card {
     max-width: 1140px;
@@ -239,6 +353,49 @@
         padding-bottom: 16px;
         padding-top: 16px;
     }
+
+    .jurney_img,
+    .connected_img,
+    .mission_img {
+        object-fit: contain;
+        max-width: 350px;
+        max-height: 400px;
+    }
+
+    .header_cloud {
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .header_bottom_spacing {
+        padding-bottom: 120px;
+    }
+
+    .header_bottom_layer {
+        width: 132px;
+        height: 114px;
+    }
+
+    .header_cat_image {
+        max-height: 102px;
+        right: -34%;
+    }
+
+    .header_right_layer {
+        max-width: 600px;
+        max-height: 420px;
+    }
+
+    .header_bulb {
+        height: 188px;
+        width: 60px;
+    }
+
+    .header_blue_lines {
+        right: 35.5%;
+        width: 138px;
+    }
 }
 
 @media (min-width:767.9px) {
@@ -275,6 +432,45 @@
         right: -2%;
         top: 16%;
     }
+
+    .header_cloud {
+        width: 280px;
+        height: 220px;
+    }
+
+    .header_bottom_spacing {
+        padding-bottom: 140px;
+    }
+
+    .header_bottom_layer {
+        width: 152px;
+        height: 134px;
+    }
+
+    .header_blue_lines {
+        width: 198px;
+    }
+
+    .header_right_layer {
+        max-width: 650px;
+        max-height: 450px;
+    }
+
+    .header_bulb {
+        right: 8%;
+        height: 238px;
+        width: 65px;
+    }
+
+    .header_logo {
+        max-width: 125px;
+        max-height: 102px;
+        margin-top: 22px;
+    }
+
+    .header_cat_image {
+        max-height: 122px;
+    }
 }
 
 @media (min-width:991.9px) {
@@ -294,8 +490,9 @@
         height: 90px;
     }
 
-    .thanks_card {
-        padding: 48px 58px 31px 55px;
+    .connected_img {
+        max-width: 500px;
+        max-height: 443px;
     }
 
     .submit_button {
@@ -304,15 +501,111 @@
         max-height: 90px;
     }
 
+    .thanks_card {
+        padding: 48px 58px 31px 55px;
+    }
+
     .cats_cards {
         max-width: 530px;
         height: 686px;
         padding: 24px 57px 76px 56px;
+    }
+
+    .jurney_img {
+        max-width: 408px;
+        max-height: 525px;
+    }
+
+    .mission_img {
+        max-width: 460px;
+        max-height: 630px;
+    }
+
+    .mission_cat_img {
+        max-width: 118px;
+        max-height: 160px;
+    }
+
+    .header_cloud {
+        width: 339px;
+        height: 243px;
+        margin-top: 26px;
+    }
+
+    .header_bottom_spacing {
+        padding-bottom: 170px;
+    }
+
+    .header_bottom_layer {
+        width: 172px;
+        height: 154px;
+    }
+
+    .header_right_layer {
+        max-width: 700px;
+        max-height: 500px;
+    }
+
+    .header_logo {
+        max-width: 155px;
+        max-height: 152px;
+        margin-top: 28px;
+    }
+
+    .header_cat_image {
+        max-height: 142px;
     }
 }
 
 @media (min-width:1280px) {
     .container {
         max-width: 1164px !important;
+    }
+
+    .header_woman {
+        width: 600px;
+        height: 750px;
+        position: absolute;
+        max-width: unset;
+        max-height: unset;
+    }
+
+    .header_bottom_spacing {
+        padding-bottom: 209px;
+    }
+
+    .header_bottom_layer {
+        width: 192px;
+        height: 164px;
+    }
+
+    .header_right_layer {
+        max-width: 897px;
+        max-height: 608px;
+    }
+
+    .max_w_600 {
+        max-width: 600px;
+    }
+
+    .header_blue_lines {
+        right: 39.5%;
+    }
+
+    .header_bulb {
+        height: 298px;
+        width: 75px;
+        right: 32%;
+    }
+
+    .header_heading {
+        max-width: 545px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header_woman {
+        width: 710px;
+        height: 854px;
     }
 }
