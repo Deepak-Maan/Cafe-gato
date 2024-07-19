@@ -41,7 +41,7 @@
 }
 
 .header_cloud {
-    background-image: url("../images/webp/clouds_img.png");
+    background-image: url("../images/webp/clouds_img.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,6 +99,12 @@
     border: 4px solid var(--primary);
     border-radius: 13px;
     box-shadow: 0px 22px 0px 0px var(--primary);
+}
+
+.about_black_paw {
+    position: absolute;
+    top: 7%;
+    right: -4%;
 }
 
 .about_top_paw {
