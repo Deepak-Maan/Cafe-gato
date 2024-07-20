@@ -59,7 +59,7 @@
 .header_cat_image {
     max-width: 108px;
     max-height: 82px;
-    right: -26%;
+    right: -19%;
     bottom: -17%;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .header_blue_lines {
-    top: 2%;
+    top: 3%;
     right: 30.5%;
     width: 108px;
 }
@@ -102,27 +102,27 @@
 }
 
 .about_black_paw {
-    position: absolute;
+
     top: 7%;
     right: -4%;
 }
 
 .about_top_paw {
-    position: absolute;
+
     right: 58px;
     top: 55px;
     z-index: -1;
 }
 
 .about_middle_paw {
-    position: absolute;
+
     right: 81px;
     top: 190px;
     z-index: -1;
 }
 
 .about_bottom_paw {
-    position: absolute;
+
     left: 37px;
     bottom: 18px;
     z-index: -1;
@@ -141,7 +141,7 @@
 
 /*==================================MISSION SECTION==================================*/
 .mission_right_layer {
-    position: absolute;
+
     right: -32%;
     top: -17%;
     z-index: -1;
@@ -155,6 +155,15 @@
 .mission_cat_img {
     max-width: 50px;
     max-height: 50px;
+}
+
+.mission_pow_img {
+    left: -5%;
+}
+
+.mission_paw_img {
+    left: -8%;
+    top: 5%;
 }
 
 /* =================================BENEFITS SECTION================================= */
@@ -173,18 +182,18 @@
 }
 
 .cats_img {
-    width: 240px;
-    height: 240px;
+    width: 180px;
+    height: 180px;
 }
 
 .benefits_top_lines {
-    position: absolute;
+
     right: -2%;
     top: 8%;
 }
 
 .benefits_bottom_lines {
-    position: absolute;
+
     left: -7%;
     bottom: -6%;
 }
@@ -199,7 +208,7 @@
 
 /* =================================JOURNEY SECTION================================ */
 .jurney_shadow {
-    position: absolute;
+
     max-width: 897px;
     max-height: 619px;
     top: 23%;
@@ -220,7 +229,7 @@
 }
 
 .journey_pow_vector {
-    position: absolute;
+
     bottom: 20%;
     left: -5%;
 }
@@ -235,21 +244,21 @@
 }
 
 .thanks_right_vector {
-    position: absolute;
+
     top: 0;
     right: 55px;
     z-index: -1;
 }
 
 .thanks_left_vector {
-    position: absolute;
+
     top: 0;
     left: 55px;
     z-index: -1;
 }
 
 .thanks_right_vector {
-    position: absolute;
+
     top: 0;
     right: 55px;
 }
@@ -300,7 +309,7 @@
 }
 
 .connected_layer {
-    position: absolute;
+
     top: 30%;
     right: -4%;
     z-index: -1;
@@ -318,16 +327,20 @@
 }
 
 .connected_left_paw {
-    position: absolute;
+
     bottom: 5%;
     left: -5%;
     z-index: -1;
 }
 
 .connected_right_paw {
-    position: absolute;
+
     top: 2%;
     right: -4%;
+}
+
+.connected_paw {
+    top: 25%;
 }
 
 /* =================================FOOTER SECTION================================= */
@@ -351,7 +364,7 @@
 /* =================================MEDIA SCREENS================================= */
 @media (min-width:575.9px) {
     .connected_layer {
-        position: absolute;
+
         top: 10%;
         right: -15%;
         z-index: -1;
@@ -392,7 +405,7 @@
         height: 114px;
     }
 
-    .header_cat_image {
+    .max_w_800 {
         max-height: 102px;
         right: -34%;
     }
@@ -419,7 +432,7 @@
 
 @media (min-width:767.9px) {
     .connected_layer {
-        position: absolute;
+
         top: 10%;
         right: -4%;
         height: 400px;
@@ -441,19 +454,15 @@
         gap: 38px;
     }
 
-    .cats_img {
-        width: 301px;
-        height: 301px;
-    }
 
     .benefits_top_lines {
-        position: absolute;
+
         right: -2%;
         top: 16%;
     }
 
     .header_cloud {
-        width: 280px;
+        width: 320px;
         height: 220px;
     }
 
@@ -487,7 +496,7 @@
         margin-top: 22px;
     }
 
-    .header_cat_image {
+    .max_w_800 {
         max-height: 122px;
     }
 
@@ -498,11 +507,16 @@
 
 @media (min-width:991.9px) {
     .connected_layer {
-        position: absolute;
+
         top: 10%;
         right: -25%;
         width: 730px;
         height: unset;
+    }
+
+    .cats_img {
+        width: 301px;
+        height: 301px;
     }
 
     .form_input {
@@ -546,7 +560,7 @@
 
     .mission_cat_img {
         max-width: 118px;
-        max-height: 160px;
+        max-height: 208px;
     }
 
     .header_cloud {
@@ -575,7 +589,7 @@
         margin-top: 28px;
     }
 
-    .header_cat_image {
+    .max_w_800 {
         max-height: 142px;
     }
 
@@ -592,7 +606,7 @@
     .header_woman {
         width: 600px;
         height: 750px;
-        position: absolute;
+
         max-width: unset;
         max-height: unset;
     }
